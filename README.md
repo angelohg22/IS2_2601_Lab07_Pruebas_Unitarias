@@ -1,12 +1,11 @@
-# Laboratorio 07 - Pruebas Unitarias
+## Abrir en GitHub Codespaces
 
-Este laboratorio permite practicar pruebas unitarias en Java usando Maven y JUnit 5.
-
-## Abrir en Gitpod
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JulerAnderson/IS2_2601_Lab07_Pruebas_Unitarias)
-
-## Ejecutar pruebas
+1. Haz clic en el botón verde **Code**.
+2. Entra a la pestaña **Codespaces**.
+3. Haz clic en **Create codespace on main**.
+4. Espera que cargue el entorno.
+5. Abre la terminal.
+6. Ejecuta:
 
 ```bash
 mvn test
