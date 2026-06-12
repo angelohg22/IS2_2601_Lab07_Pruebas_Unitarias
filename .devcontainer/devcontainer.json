@@ -1,8 +1,7 @@
 {
     "name": "IS2-Lab07 - Pruebas Unitarias",
-    "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
-    "features": {
-        "ghcr.io/devcontainers/features/maven:1": {}
+    "build": {
+        "dockerfile": "Dockerfile"
     },
     "customizations": {
         "vscode": {
