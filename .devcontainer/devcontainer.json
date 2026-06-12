@@ -1,6 +1,6 @@
 {
     "name": "IS2-Lab07 - Pruebas Unitarias",
-    "image": "mcr.microsoft.com/devcontainers/java:17",
+    "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
     "features": {
         "ghcr.io/devcontainers/features/maven:1": {}
     },
@@ -12,5 +12,5 @@
             ]
         }
     },
-    "postCreateCommand": "mvn -q -DskipTests dependency:go-offline"
+    "postCreateCommand": "java -version && mvn -version && mvn -q -DskipTests dependency:go-offline"
 }
